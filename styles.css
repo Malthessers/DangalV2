@@ -1,0 +1,203 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8a8f70;
+    padding: 1rem 2rem;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+}
+
+.nav a:hover {
+    color: #c9c9a6;
+    text-decoration: underline;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background-color: #707557;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #8a8f70;
+}
+
+.hero {
+    position: relative;
+    text-align: margin-left;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text button {
+    background-color: #707557;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.hero-text button:hover {
+    background-color: #8a8f70;
+}
+
+.section-title {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    padding: 0 2rem;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-bottom: 10rem solid #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+.product-card p {
+    font-size: 1rem;
+    color: #666;
+    margin: 0.5rem 0;
+}
+
+.add-to-cart {
+    background-color: #707557;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #8a8f70;
+}
+
+/* New CSS for the long box */
+.long-box {
+    grid-column: span 4; /* Span across all 4 columns */
+    background-color: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 1rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    
+}
+
+.long-box img {
+    width: 100%;
+    height: auto;
+}
+.long-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.long-box h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 1rem 0;
+}
+
+.long-box p {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 1rem 0;
+}
+
+.long-box .add-to-cart {
+    background-color: #707557;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.long-box .add-to-cart:hover {
+    background-color: #8a8f70;
+}
