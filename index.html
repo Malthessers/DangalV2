@@ -35,8 +35,17 @@
             </div>
         </div>
 
-        <button class="hero-prev" onclick="moveHeroSlide(-1)">&#10094;</button>
-        <button class="hero-next" onclick="moveHeroSlide(1)">&#10095;</button>
+        <!-- Navigation Arrows -->
+        <button class="hero-prev">&#10094;</button>
+        <button class="hero-next">&#10095;</button>
+
+        <!-- Indicator Dots -->
+        <div class="hero-dots">
+            <span class="dot" onclick="jumpToSlide(0)"></span>
+            <span class="dot" onclick="jumpToSlide(1)"></span>
+            <span class="dot" onclick="jumpToSlide(2)"></span>
+        </div>
+    </div>
 
         <div class="hero-text">
             <h1>Discover the Beauty</h1>
@@ -46,6 +55,7 @@
     </div>
 
     <script src="script.js"></script>
+
 
     <!-- Luzon Collection -->
     <h2 class="section-title">Luzon: Part I Collection</h2>
